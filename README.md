@@ -1,26 +1,24 @@
-# Clinical Dataset Analysis using Python & R
+# Python & R Data Analysis Project  
 
-This project demonstrates data cleaning, statistical analysis, and visualization using Python and R on healthcare datasets.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  
+[![R](https://img.shields.io/badge/R-4.0%2B-lightgrey)](https://www.r-project.org/)  
+[![Pandas](https://img.shields.io/badge/Library-Pandas-green)](https://pandas.pydata.org/)  
+[![ggplot2](https://img.shields.io/badge/Library-ggplot2-orange)](https://ggplot2.tidyverse.org/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
 
-## 📊 Dataset
-- Example dataset: [Kaggle - Diabetes Dataset](https://www.kaggle.com/datasets/mathchi/diabetes-data-set)  
-- (Replace with your dataset if using another source)  
+## 📌 Overview  
+This project demonstrates **data analysis workflows in both Python and R** using the **Diabetes dataset (Kaggle)**.  
+It highlights how to clean, transform, visualize, and statistically analyze healthcare data across two popular data science ecosystems.  
 
-## 🛠️ Tools & Skills
-- Python (Pandas, NumPy, Matplotlib, Seaborn)  
-- R (dplyr, ggplot2, stats)  
-- Hypothesis testing, regression analysis  
-- Data visualization  
-
-## 🚀 Example Questions Answered
-- What are the risk factors most correlated with diabetes?  
-- How do patient outcomes vary by demographic groups?  
-- Can logistic regression predict the probability of disease presence?  
-
-## 📂 Files
-- `analysis_python.ipynb` → Jupyter Notebook for Python analysis  
-- `analysis_r.R` → R script for statistical analysis  
+The goal is to **compare approaches in Python and R** for exploratory data analysis and derive meaningful insights from the dataset.  
 
 ---
 
-✍️ Author: Sony Gunaganti  
+## 📂 Project Structure  
+```bash
+Python-R-Project/
+│── data/                 # Dataset(s) used for analysis
+│── analysis_python.ipynb # Jupyter Notebook with Python workflow
+│── analysis_r.R          # R script with equivalent analysis
+│── requirements.txt      # Python dependencies
+│── README.md             # Project documentation
